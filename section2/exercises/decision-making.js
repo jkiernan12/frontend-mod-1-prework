@@ -5,9 +5,9 @@ Below is a dynamic story that is created based on the value of three variables: 
 Spend some time changing the variables and running the file to see how the story changes.
 */
 
-var doorChoice = 1;
+var doorChoice = 2;
 var bearClothing = "";
-var bearChoice = 1;
+var bearChoice = 3;
 
 console.log("You enter a dark room with two doors. Do you go through #1 or #2?");
 
@@ -38,16 +38,22 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
+This block of code assigns a value to bearClothing. It's evaluating if the user chooses
+door 1 (doorChoice variable). If evaluated as true, the bear wears a hat. If any other door is
+chosen, the bear wears a scarf.
 
 2. What variable has a new value assigned to it after the first if statement executes?
-
+bearClothing
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
-
+scarf
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
-
+This block of code logs a concatenated string depending on which value is assigned to bearChoice.
+The value 1 is tested first, followed by 2, then 3.
+If anything besides a numeric 1, 2, or 3 is assigned to bearChoice, you befriend the bear.
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
-
+You run into the snake pit (sorry Indiana Jones)
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
-
+You tell the bear the hat is too small and it starts to cry!
 7. What is your favorite ending?
+You stay with the bear and become it's best friend!" -- so wholesome 🥲
 */
