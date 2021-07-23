@@ -63,7 +63,7 @@ class Food {
   constructor() {
     this.taste = "yummy";
     this.calories = 700;
-    this.healthy = false;
+    this.isHealthy = false;
   }
 }
 var twizzlers = new Food();
